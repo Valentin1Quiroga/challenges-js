@@ -1,6 +1,6 @@
 alert("Hola soy un alerta y te voy a pedir 2 numeros para indicarte si el primero de ellos es mayor, menor o igual al segundo");
-const respuesta1 = prompt("Por favor inserte el primer numero");
-const respuesta2 = prompt("Por favor inserte el segundo numero");
+const respuesta1 = Number(prompt("Por favor inserte el primer numero"));
+const respuesta2 = Number(prompt("Por favor inserte el segundo numero"));
 console.log("Aqui tienes los resultados:")
 respuesta1<respuesta2?
 console.log(`${respuesta1} es menor a ${respuesta2}`)
