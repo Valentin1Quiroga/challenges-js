@@ -1,9 +1,9 @@
 let number=0;
-let numbers = [];
+const numbers = [];
 while(number!=null){
-    number = prompt("Ingrese un número: ");
+    number = prompt("Ingresa un numero: ");
     if(!isNaN(number) && number!=false){
         numbers.push(number);
-    }else alert("no es un numero valido");
+    }else alert("por favor ingrese un numero valido");
 }
 console.log(numbers.join(""));
