@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenges JS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -28,9 +29,21 @@
             </ul>
             <h3>No te olvides de mirar la consola</h3>
             <p>Para abrir la consola en Chrome, usa este atajo de teclado: Cmd + Opción + J (en una Mac) o Ctrl + Shift + J (en Windows).</p>
-            <button onclick="userDni()">Ingresar DNI</button>
-        </section>
+            <hr>
+            <div>
+                <h2>Creando circulos</h2>
+                <form>
+                    <h3> Ingresa un numero y se va a crear un circulo cuyo radio será el número que ingreses.</h3>
+                    <textarea id="circle-radius" required pattern="[0-9]" minlength="1" maxlength="2"></textarea>
+                    <button class="crear-circulo" onclick="crearCirculo(event)">Crear circulo</button>
+                    <button class="refresh" onclick="location.reload()">🔄</button>
+                </form>
+                <div id="circle-container">                    
+                </div>
+            </div>
+
+           
     </main>
-<script src="js/challenge17.js" ></script>    
+<script src="js/challenge20.js" ></script>    
 </body>
 </html>
