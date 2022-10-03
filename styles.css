@@ -40,6 +40,7 @@ button:hover{
     position: relative;
     width: 800px;
     height: 500px;
+    border:solid 2px black;
 
 }
 .ground{
@@ -100,6 +101,7 @@ button:hover{
     position: relative;
     width: 800px;
     height: 500px;
+    border:solid 2px black;
 }
 
 .sun2{
@@ -111,4 +113,13 @@ button:hover{
     right: 20%;
     top: 10%;
 
+}
+#challenge-22{
+    background-color: cadetblue;
+}
+.cambiar-fondo::before{
+    content:"Nublar paisaje ";
+}
+.cambiar-fondo2::before{
+    content:"Que vuelva el dia soleado ";
 }
