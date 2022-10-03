@@ -1,3 +1,4 @@
+/*! CHALLENGE 20 */ 
 #circle-container{
     display: flex;
     justify-content: center;
@@ -31,4 +32,83 @@ button:hover{
 }
 .refresh{
     font-size: x-large;
+}
+
+/*! CHALLENGE 22 */ 
+.fondo{
+    background-color: #0000FF;
+    position: relative;
+    width: 800px;
+    height: 500px;
+
+}
+.ground{
+    background-color: #008000;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 35%;
+}
+.sun{
+    background-color: #FFFF00;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20%;
+    top: 10%;
+
+}
+.mountain{
+    position: absolute;
+    bottom: 35%;
+    height: 30%;
+    width: 100%;
+}
+#triangle-one{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    border-top: solid transparent 0px ;
+    border-bottom: solid #A52A2A 150px ;
+    border-left: solid transparent 200px ;
+    border-right: solid transparent 200px;
+}
+#triangle-two{
+    display: inline-block;
+    position: absolute;
+    left: 35vh;
+    bottom: 0;
+    border-top: solid transparent 0px ;
+    border-bottom: solid #A52A2A 150px ;
+    border-left: solid transparent 150px ;
+    border-right: solid transparent 180px;
+}
+#triangle-three{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-top: solid transparent 0px ;
+    border-bottom: solid #A52A2A 150px ;
+    border-left: solid transparent 190px ;
+    border-right: solid transparent 290px;
+}
+.nublado{
+    background: rgb(186,184,184);
+    background: linear-gradient( rgba(186,184,184,1) 0%, rgba(120,120,120,1) 50%, rgba(165,166,160,1) 100%);
+    position: relative;
+    width: 800px;
+    height: 500px;
+}
+
+.sun2{
+    background-color: #ebeb005d;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20%;
+    top: 10%;
+
 }
